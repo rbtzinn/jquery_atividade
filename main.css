@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    cursor: pointer;
+}
+
+
+a:hover {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    li {
+        font-size: 1.2em;
+    }
+}
